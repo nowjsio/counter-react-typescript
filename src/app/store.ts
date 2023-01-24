@@ -5,13 +5,13 @@ import createSagaMiddleware from '@redux-saga/core';
 import { all, fork } from 'redux-saga/effects';
 // import thunk from 'redux-thunk';
 import counterReducer from '../features/counter/counterSlice';
-import { counterSaga } from '../features/counter/counterSaga';
+import { rootSaga } from './middleware/saga';
 import loggerMidleware from './middleware/logger';
 
 const sagaMiddleWare = createSagaMiddleware();
 const middlewares = [sagaMiddleWare, loggerMidleware];
 function* saga() {
-  yield all([fork(counterSaga)]);
+  yield all([fork(rootSaga)]);
 }
 
 const store = configureStore({

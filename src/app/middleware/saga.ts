@@ -1,6 +1,6 @@
 import { all, fork } from 'redux-saga/effects';
-import { counterSaga } from '../../features/counter/counterSaga';
+import { watchFetchDecrementAsync } from '../../features/counter/counterSaga';
 
 export function* rootSaga() {
-  yield all([fork(counterSaga)]);
+  yield all([fork(watchFetchDecrementAsync)]);
 }
