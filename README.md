@@ -3,7 +3,7 @@ A simple Counter with React, Redux and TypeScript
 
 
 
-<img src="https://user-images.githubusercontent.com/15716360/211161078-d8ad34c5-58af-44cf-aafa-d1f28ef8f275.gif" width="600">
+<img src="https://user-images.githubusercontent.com/54937379/214278679-15ce9188-7d10-4aa1-81ac-7588a9f3b09c.gif" width="600">
 
 ## Features
 - Increase number by 1
