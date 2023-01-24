@@ -32,7 +32,9 @@
     "import/extensions": "off",
     "object-curly-newline": "off",
     "import/no-cycle": "off",
-    "no-console": "off"
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "@typescript-eslint/no-unused-vars": "off"
   },
   "settings": {
     "import/parsers": {
