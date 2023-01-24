@@ -9,6 +9,8 @@ A simple Counter with React, Redux and TypeScript
 - Increase number by 1
 - Increase according to a given number
 - Synchronous or asynchronous increase
+    - asyncIncrement: createAsyncThunk
+    - asyncDecrement: redux-saga
 
 ## Technologies
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
